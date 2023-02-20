@@ -5,3 +5,5 @@ class QuizAdmin(admin.ModelAdmin):
 	list_display = ('question',)
 
 admin.site.register(Quiz, QuizAdmin)
+
+print("hello")
