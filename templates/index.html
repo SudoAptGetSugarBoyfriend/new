@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+{% load static %}
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+
+    <div class='container'>
+      {% block content %}
+		<a style = "display: block;text-align: right; color: #ddd" href = "/admin"> Go to Admin </a>
+	<div id = "container"  style = "text-align: center">
+		<h2>Welcome to my QuizApp</h2>
+		<a class = "button" href = "/login"> Go to Quiz </a>
+      {% endblock content %}
+    </div>
+    </div>
+  </body>
+</html>
